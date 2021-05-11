@@ -29,6 +29,17 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+---
+
+### `yarn storybook`
+
+Runs the Storybook instance for this environment.\
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
+
+The page will reload if you make edits.\
+
+---
+
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
