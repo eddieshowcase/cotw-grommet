@@ -11,6 +11,7 @@ import {
   ResponsiveContext,
   Text,
 } from "grommet";
+import { hpe } from "grommet-theme-hpe";
 import { Close, FormClose, Menu, Notification, Moon, Sun } from "grommet-icons";
 import { deepMerge } from "grommet/utils";
 
@@ -20,18 +21,18 @@ import { SidebarNav } from "./components/SidebarNav";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 
-const customTheme = deepMerge(grommet, {
+const customTheme = deepMerge(hpe, {
   // all items here that can be customized are in ~/base.js of the grommet theme
   global: {
     // global overrides here
-    colors: {
-      brand: { dark: "#0E5265", light: "#00C8FF" },
-    },
-    font: {
-      family: "Roboto",
-      size: "18px",
-      height: "20px",
-    },
+    // colors: {
+    //   brand: { dark: "#0E5265", light: "#00C8FF" },
+    // },
+    // font: {
+    //   family: "Roboto",
+    //   size: "18px",
+    //   height: "20px",
+    // },
   },
   // specific (non-global) theme overrides here
 });
