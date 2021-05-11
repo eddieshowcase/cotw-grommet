@@ -36,7 +36,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Runs the Storybook instance for this environment.\
 Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 
 ---
 
