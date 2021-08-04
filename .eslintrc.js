@@ -100,7 +100,7 @@ module.exports = {
         //     },
         // ],
         "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
-
+        "react/prop-types": "off", // temporary
         "react/display-name": "off",
         /* rules of eslint-plugin-react-hooks */
         "react-hooks/rules-of-hooks": "error",
