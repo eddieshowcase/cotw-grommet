@@ -1,12 +1,19 @@
 import React from "react";
-import { Box, Heading, Paragraph, Text } from "grommet";
+import { Box, Heading, Image, Paragraph, Text } from "grommet";
 
-export const About = () => {
-  return (
-    <Box flex align="center" justify="center">
-      <Heading level={4}>What is this About really?</Heading>
-      <Text>some text</Text>
-      <Paragraph>Lorem ipsum paragraph...</Paragraph>
+export const About = () => (
+    <Box
+        flex
+        align="center"
+        margin={{
+            horizontal: "none",
+            top: "xlarge",
+            bottom: "medium",
+        }}
+    >
+        <Box height="medium" width="medium">
+            <Image src="/cotw_logoWText_blackTrans.png" />
+        </Box>
+        <Heading level={4}>Front range MTB dad with a single speed addiction.</Heading>
     </Box>
-  );
-};
+);
