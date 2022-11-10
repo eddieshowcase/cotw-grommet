@@ -12,8 +12,10 @@ export const About = () => (
         }}
     >
         <Box height="medium" width="medium">
-            <Image src="/cotw_logoWText_blackTrans.png" />
+            <Image fit="contain" src="/cotw_logoWText_blackTrans.png" />
         </Box>
-        <Heading level={4}>Front range MTB dad with a single speed addiction.</Heading>
+        <Text weight="bold" size="large" margin={{ vertical: "medium" }}>
+            Front range MTB dad with a single speed addiction.
+        </Text>
     </Box>
 );

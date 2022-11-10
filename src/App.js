@@ -26,9 +26,10 @@ const customTheme = deepMerge(hpe, {
     // all items here that can be customized are in ~/base.js of the grommet theme
     global: {
         // global overrides here
-        // colors: {
-        //   brand: { dark: "#0E5265", light: "#00C8FF" },
-        // },
+        colors: {
+            //   brand: { dark: "#0E5265", light: "#00C8FF" },
+            focus: "text",
+        },
         // font: {
         //   family: "Roboto",
         //   size: "18px",
@@ -44,7 +45,7 @@ export const App = () => {
     return (
         <Grommet theme={customTheme} themeMode={darkMode ? "dark" : "light"} full>
             <Box align="center" fill>
-                <Box direction="column" width="xlarge">
+                <Box direction="column" width="xxlarge">
                     <AppHeader
                         isDarkMode={darkMode}
                         toggleThemeMode={() => setDarkMode(!darkMode)}

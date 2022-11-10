@@ -6,12 +6,12 @@ export const AppHeader = (props) => {
     const { isDarkMode, toggleThemeMode } = props;
 
     return (
-        <Box direction="row" tag="header" pad="small" justify="between">
+        <Box direction="row" tag="header" pad="medium" justify="between">
             <a href="/about">
                 <Button label="About" />
             </a>
 
-            <Anchor href="/" style={{ "text-decoration": "none" }}>
+            <Anchor href="/" style={{ textDecoration: "none" }}>
                 <Heading level="3" margin="none">
                     Creature of the Wheel
                 </Heading>
